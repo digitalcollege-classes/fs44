@@ -1,0 +1,104 @@
+<!--
+    GET -> envia os dados via URL
+    POST -> envia dos dados de forma "escondida"
+-->
+
+<form action="" method="GET">
+
+    <label for="nome">Nome</label>
+    <input value="Chiquim da Silva" id="nome" placeholder="Digite aqui o nome" type="text">
+
+    <br><br>
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email">
+
+    <br><br>
+
+    <label for="tel">Telefone</label>
+    <input type="text" id="tel">
+
+    <br><br>
+
+    <label for="data_nascimento">Data de Nascimento</label>
+    <input id="data_nascimento" type="date">
+
+    <br><br>
+
+    <label for="cursos">Quantidade de cursos</label>
+    <input id="cursos" type="number">
+
+    <br><br>
+
+    <label for="cor_camiseta">Cor da camisa</label>
+    <input id="cor_camiseta" type="color">
+
+    <br><br>
+
+    <label for="linkedin">URL do Linkedin</label>
+    <input id="linkedin" type="url">
+
+    <br><br>
+    
+    <label for="data_e_hora">Data e hora</label>
+    <input id="data_e_hora" type="datetime-local">
+
+    <br><br>
+
+    <label for="senha">Senha</label>
+    <input id="senha" type="password">
+
+    <br><br>
+
+    <input type="hidden" id="token" value="1qa2ws3ed">
+
+
+
+
+    <p>Escolha o turno da sua turma</p>
+
+    <label for="manha">Manhã</label>
+    <input name="turno" id="manha" type="radio" value="manha">
+    <br>
+
+    <label for="tarde">Tarde</label>
+    <input name="turno" id="tarde" type="radio" value="tarde">
+    <br>
+
+    <label for="noite">Noite</label>
+    <input  name="turno"id="noite" type="radio" value="noite">
+    <br>
+
+    <hr>
+
+    <p>Selecione os cursos que você gostaria de fazer</p>
+
+    <label for="php">PHP</label>
+    <input name="cursos[]" id="php" type="checkbox" value="PHP">
+    <br>
+
+    <label for="mkt">MKT</label>
+    <input name="cursos[]" id="mkt" type="checkbox" value="Marketing">
+    <br>
+
+    <label for="fs">Fullstack</label>
+    <input name="cursos[]" id="fs" type="checkbox" value="Fullstack">
+    <br>
+
+
+    <button>Enviar</button>
+</form>
+
+<h2>O que estudar pro dia 07/11/2024</h2>
+
+input reset
+input submit
+input button
+
+input range
+
+textarea
+
+select
+    option
+    optgroup

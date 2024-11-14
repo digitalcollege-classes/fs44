@@ -1,0 +1,14 @@
+button {
+    background-color: red;
+    color: white;
+    border: 1px solid gray;
+    height: 30px;
+}
+
+button.azul {
+    background-color: blue;
+}
+
+button.verde {
+    background-color: green;
+}

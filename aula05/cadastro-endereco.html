@@ -1,0 +1,39 @@
+<h1>Endereco</h1>
+<hr>
+
+<form action="">
+    <label for="nome">Nome</label>
+    <input required minlength="3" id="nome" type="text">
+    <br>
+
+    <label for="cep">CEP</label> 
+    <input id="cep" required pattern="[0-9]{8}" maxlength="8" type="text">
+    <br>
+
+    <label for="logradouro">Logradouro</label>
+    <input id="logradouro" type="text">
+    <br>
+
+    <label for="numero">Numero</label>
+    <input type="number" min="1" id="numero">
+    <br>
+
+    <label for="bairro">Bairro</label>
+    <input id="bairro" type="text">
+    <br>
+    
+    <label for="cidade">Cidade</label>
+    <input id="cidade" type="text">
+    <br>
+    
+    <label for="uf">UF</label>
+    <input id="uf" type="text">
+    <br>
+    
+
+    <label for="complemento">Complemento</label>
+    <textarea id="complemento"></textarea>
+    <br><br>
+    
+    <button>Enviar</button>
+</form>

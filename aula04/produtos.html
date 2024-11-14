@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Produtos</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .action-btn {
+            padding: 5px 10px;
+            margin: 0 2px;
+            cursor: pointer;
+        }
+        .edit-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+        .delete-btn {
+            background-color: #f44336;
+            color: white;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Tabela de Produtos</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>Imagem</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Produto A</td>
+                <td>Categoria X</td>
+                <td>R$ 100,00</td>
+                <td>50</td>
+                <td><img src="path/to/imageA.jpg" alt="Imagem Produto A" width="50"></td>
+                <td>
+                    <button class="action-btn edit-btn">Editar</button>
+                    <button class="action-btn delete-btn">Excluir</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Produto B</td>
+                <td>Categoria Y</td>
+                <td>R$ 150,00</td>
+                <td>30</td>
+                <td><img src="path/to/imageB.jpg" alt="Imagem Produto B" width="50"></td>
+                <td>
+                    <button class="action-btn edit-btn">Editar</button>
+                    <button class="action-btn delete-btn">Excluir</button>
+                </td>
+            </tr>
+            <!-- Mais linhas podem ser adicionadas aqui -->
+        </tbody>
+    </table>
+
+</body>
+</html>
