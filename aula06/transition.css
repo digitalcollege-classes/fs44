@@ -1,0 +1,33 @@
+section {
+    display: flex;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.azul {
+    background-color: blue;
+    transition: 2s;
+}
+
+.azul:hover {
+    transform: scale(0.5);
+    transition: 2s;
+}
+
+.preto {
+    background-color: #333;
+    transition: 1s;
+}
+
+.preto:hover {
+    transform: rotate(45deg);
+    transition: 1s;
+}
+
+.vermelho {
+    background-color: pink;
+}
